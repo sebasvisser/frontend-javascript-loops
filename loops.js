@@ -7,7 +7,7 @@
 // ==========================================
 
 for (let i = 0; i < 3; i++) {
-    console.log("Hoera!")
+    console.log("Hoera!");
 }
 
 // ==========================================
@@ -20,7 +20,13 @@ for (let i = 0; i < 3; i++) {
 // klaar!
  // ==========================================
 
-
+for (let i = 0; i <5 ; i++) {
+    if (i<4) {
+        console.log("loop...");
+    } else if (i===4){
+        console.log("klaar!");
+    }
+}
 
 // ==========================================
 // Opdracht 3. Maak een for-loop die van 0 tot 15 loopt. Voor ieder getal wordt in de console gelogd of het getal even of oneven is.
