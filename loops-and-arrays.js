@@ -25,7 +25,11 @@ console.log({names})
 // ==========================================
 
 const numbers = [2, 4, 5, 29, 38];
-
+console.log({numbers});
+for (let i = 0; i < numbers.length; i++) {
+    numbers[i] = numbers[i]*3;
+}
+console.log({numbers});
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(numbers) geeft: [2, 4, 5, 29, 38];
