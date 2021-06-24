@@ -45,7 +45,11 @@ console.log({numbers});
 // ==========================================
 
 const squares = [30, 2, 8, 24, 11];
-
+console.log({squares});
+for (let i = 0; i < squares.length; i++) {
+    squares[i] = squares[i] * squares[i] * squares[i];
+}
+console.log({squares});
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(numbers) geeft: [30, 2, 8, 24, 11];
